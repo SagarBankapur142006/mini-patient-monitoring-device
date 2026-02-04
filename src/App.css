@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+background: linear-gradient(135deg, #560eff, #eadaff);
+  color: #e2e8f0;
+}
+
+/* Layout */
+.container {
+  min-height: 100vh;
+  padding: 60px 40px;
+}
+
+.header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+/* Grid */
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+/* Cards */
+.card {
+  background: rgba(30, 41, 59, 0.85);
+  padding: 30px;
+  border-radius: 18px;
+  width: 230px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.6);
+}
+
+.card p {
+  opacity: 0.7;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.card h2 {
+  font-size: 34px;
+  margin: 10px 0 0;
+}
+
+/* Inputs */
+.input-panel {
+  max-width: 450px;
+  margin: auto;
+  background: rgba(30, 41, 59, 0.9);
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.input-panel input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.input-panel input:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Risk Styles */
+.risk-stable {
+  text-align: center;
+  color: #22c55e;
+  font-size: 20px;
+}
+
+.risk-critical {
+  text-align: center;
+  color: #f97316;
+  font-size: 20px;
+}
+
+.risk-severe {
+  text-align: center;
+  color: #ef4444;
+  font-size: 22px;
+  font-weight: 600;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}

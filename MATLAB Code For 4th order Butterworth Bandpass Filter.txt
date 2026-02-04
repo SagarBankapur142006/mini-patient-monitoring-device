@@ -1,0 +1,17 @@
+MATLAB Code For 4th order Butterworth Bandpass filter 
+
+  clc;
+clear;
+close all;
+
+Fs = 100;          % Sampling frequency (Hz)
+f_low = 0.5;       % Lower cutoff frequency (Hz)
+f_high = 4;        % Upper cutoff frequency (Hz)
+
+order = 4;         % 4th order Butterworth Bandpass filter
+
+Wn = [f_low f_high] / (Fs/2);   % Normalize frequencies
+[b, a] = butter(order/2, Wn, 'bandpass');
+
+freqz(b, a, 1024, Fs);
+title('Butterworth Band-Pass Filter Frequency Response');
