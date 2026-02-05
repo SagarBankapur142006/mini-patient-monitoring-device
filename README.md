@@ -2,7 +2,7 @@
 
 Many ambulances lack equipment for continuous monitoring of Blood Pressure, Heart Rate, and SpO₂, preventing doctors from assessing patient condition before hospital arrival.
 
-## 💡 Project Overview
+## 💡 Proposed Solution
 
 This project proposes a Real-Time Ambulance Patient Monitoring System that continuously measures vital signs and transmits them to doctors through cloud connectivity, enabling early medical assessment and preparation.
 
@@ -51,7 +51,7 @@ Detects reflected light
 
 Provides digital Heart Rate & SpO₂ data
 
-## 🧮 MATLAB Signal Processing
+## 🧮 MATLAB Filtering
 
 4th Order Butterworth Bandpass Filter
 
