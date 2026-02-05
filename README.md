@@ -86,8 +86,11 @@ Alerts for abnormal readings
 ## 📊 Results
 
 ✔ Continuous real-time monitoring
+
 ✔ Reliable data transmission
+
 ✔ Early detection of abnormal vitals
+
 ✔ Centralized data access for doctors
 
 ## ✅ Advantages
